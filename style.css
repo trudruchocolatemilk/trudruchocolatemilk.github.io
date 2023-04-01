@@ -1,0 +1,57 @@
+html {
+    background-image: url('background.png');
+    background-size: 30% 3000%;
+}
+h1 {
+    font-size: 400%;
+    position: absolute;
+    top: 500px;
+    left: 100px;;
+    background-color: white;
+}
+h2 {
+    font-size: 400%;
+    position: absolute;
+    top: 500px;
+    right: 100px;;
+    background-color: white;
+}
+.reg {
+    width: 45%;
+    height: 25%;
+    position: absolute;
+    left: 500px
+}
+.big {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    transition: transform .7s ease-in-out;
+}
+.big:hover {
+    transform: scale(10)
+}
+.mega {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 650px;
+    right: 100px;
+    transition: transform .7s ease-in-out;
+}
+.cart {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 25px;
+    right: 150px;
+}
+.gif {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 50px;
+    left: 125px;
+}
